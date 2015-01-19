@@ -1,0 +1,23 @@
+INP	a = get_num()
+P++
+INP	b = get_num()
+
+P--
+LOP	while a:
+M--		a -= 1
+P++
+REG		temp = b
+LOP		while b:	#
+M--			b -= 1	#
+P++				#
+M++			c += 1	#
+P--				#
+END				# c += b
+
+REG		b = temp
+P--
+END
+
+P++
+P++
+OUT	print c

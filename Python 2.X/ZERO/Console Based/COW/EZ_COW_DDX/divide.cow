@@ -1,0 +1,80 @@
+This is the first word.
+N = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+U = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+  = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+= = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+  = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++
+
+Show the prompt.
+P--P--P--P--P--
+LOP
+I/O
+P++
+END
+
+Get and store the input.
+INP
+REG (or "wiz")
+M=0
+M++
+S++
+
+This is the second word.
+D = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+I = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+V = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+  = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+= = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+  = M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++
+
+Show the prompt.
+P--P--P--P--P--
+LOP
+I/O
+P++
+END
+
+Get the input and setup for calculation.
+INP
+S++
+M--
+WIZ
+
+Display the results.
+
+(this stomach is no longer needed)
+S--
+M=0
+(string)
+M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++
+P--P--P--P--P--P--
+(print)
+LOP
+I/O
+P++
+END
+S--
+OUT
+S++
+(string)
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++P++
+M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++M++
+P--P--P--P--P--
+(print)
+LOP
+I/O
+P++
+END
+S++
+OUT

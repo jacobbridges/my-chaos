@@ -1,0 +1,11 @@
+INP
+P++
+INP
+LOP
+M--
+P--
+M++
+P++
+END
+P--
+OUT

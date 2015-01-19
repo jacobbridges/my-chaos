@@ -1,0 +1,43 @@
+Write 2D tanks programming application.
+Write digimon program.
+
+Create a better timeout system in the "spots.QRP" class.
+Create a class that handles the timeout system of spots.QRP.
+Write a module and/or class that helps with GUI timeout loops (auto-correcting [fast forwards] and auto-resuming [returns where left off]).
+Rewrite classes in DFS so that they are easier to read; also add classes with builtin compression.
+Write DFS functions/classes that allow summary of contents.
+
+Write data encryption system where key length is 64 KB.
+Write the TORNADO module (like "spice," but also uses a "twist" key).
+
+DAL1 -> DAL6 need to be rewritten.
+The DiskDriver needs to be rewritten.
+
+Check the scripts in CGI.
+Rewrite ComStar (make it like "Backup 1.5") based on "spice" and send to Timothy Stephen Parker; also make version of program based on "TORNADO."
+Write an instant messaging program, create a module based on Morse Code, make a module for the "stderr" redirector, create a module that could be used for composing music, write test routines for the modules and demonstrations for them as well.
+Work on re-writting the "War Game"; possibly, write a GUI game such as "SIMON", ARC (alphabet rubics cube), Reaction, Peg, Robot-based game, etc.
+In GUI, check the code behind split_and_join (add configurable split file size) and write a better version of the shell.
+Learn how to use "pygame" better.
+Go back over the code in Projects and recheck and rewrite the code (for Python 3.0).
+Prune the programs in "Utilities"; some may need to be rewritten as command-line programs and some may need to be archives and some may need GUI interfaces.
+
+Write a program for keeping notes/illustrations (CGI or GUI).
+Write a database system for the aforementioned program.
+Write a Guestbook/chat-system (CGI).
+Write a CGI game (Neopets?) -- or Duke Hunt?
+
+"GET A LIFE !!!" -- as others might say.
+
+Go check out "My Text\Memories" -- some things in there need to be rewritten and polished.
+Don't forget yourself (Zero), NovaSuperNova, the "False Universe", time at Neopets.
+Write about Aens -- its history, people, places, wars, plans, technology, vehicles, characters, etc.
+
+Learn how to draw. Learn how to draw on computers and draw 3D things. Learn how to program 3D programs.
+Listen to music more often.
+Interact with people a whole lot!
+
+In all things, keep God first ... (even if this is at the end of the list)
+Keep reminding yourself of God -- TUG (Think Upon God)
+
+I am an Ambassador.

@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><HTML><HEAD>
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=iso 8859-1">
+<TITLE>Where am I?</TITLE>
+<STYLE type="text/css">
+<!--
+BODY {
+	FONT-SIZE: small; COLOR: #000000; FONT-FAMILY: "trebuchet ms", Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #FFFFFF
+}
+
+H1 {
+	FONT-SIZE: large;
+}
+
+A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: underline;
+}
+
+.footer {
+	TEXT-ALIGN: center; FONT-SIZE: smaller;
+}
+
+.footer IMG {
+	BORDER: 1px solid #888;
+}
+-->
+</STYLE>
+</HEAD>
+<BODY bgColor="#ffffff" text="#000000">
+<H1 align="center">Welcome to Abyss Web Server</H1>
+<P>
+<B>Abyss Web Server</B> is running correctly on your system. You should now change this page with yours.
+</P>
+<P>
+Please include in your web pages (at least the first) the <b><i>'Powered by Abyss Web Server'</i></b> banner to promote the use of the software.
+</P>
+<hr>
+<CENTER>
+<P CLASS="footer">
+Abyss Web Server - 
+Copyright &#169; 2001-2005 <A HREF="http://www.aprelium.com" >Aprelium Technologies</A> - All rights reserved
+</P>
+<P CLASS="footer">
+<A HREF="http://www.aprelium.com" ><IMG SRC="../pwrabyss.gif" ALT="Powered by Abyss Web Server" TITLE="Powered by Abyss Web Server" BORDER="0" WIDTH="88" HEIGHT="31"></A>
+</P>
+	<hr>
+	<table border="1" width="80%">
+		<tr>
+			<td align="center">
+				<h2>
+					Files:
+				</h2>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td align="center" width="20%">
+							<h2>
+								Link:
+							</h2>
+						</td>
+						<td>
+							<h2>
+								Description:
+							</h2>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" width="20%">
+							<h3>
+								<a href="python_script_viewer.py">Python Script Viewer</a>
+								<hr>
+								<a href="http://schap472.dorms.bju.edu/python/python_script_viewer.py?file=python_script_viewer.py">SOURCE</a>
+							</h3>
+						</td>
+						<td>
+							<h3>
+								The problem with having a web site server execute CGI is that you can never look at the program itself. The particular program is designed to get around that problem. The script will display a HTML form if there was no query string and possibly an error message if the file was invalid. Otherwise, the Python file is printed to your web browser as text.
+							</h3>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" width="20%">
+							<h3>
+								<a href="ip.py">IP Address</a>
+								<hr>
+								<a href="http://schap472.dorms.bju.edu/python/python_script_viewer.py?file=ip.py">SOURCE</a>
+							</h3>
+						</td>
+						<td>
+							<h3>
+								As you will notice, most of these files are just experiments. One of the best ways to learn is to experiment, and that is the idea behind this "playground." The webmaster of this site is trying to gain skills that will make programming CGI applications much easier in the future. The file to the left dynamically shows you your IP address -- something that should be unique to your computer. This would allow the server (the computer that your computer connected to) know who you are to a certain extext and provide you with dynamic content based on what is learned about you.
+							</h3>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" width="20%">
+							<h3>
+								<a href="dir.py">Directory Contents</a>
+								<hr>
+								<a href="http://schap472.dorms.bju.edu/python/python_script_viewer.py?file=dir.py">SOURCE</a>
+							</h3>
+						</td>
+						<td>
+							<h3>
+								This concept behind this program can be used in several different applications. First, being able to display what is in a directory shows that a script could be written to show the directory in any format a programmer might want. However, the script could also be modified to show the contents of other directories as well -- possibly even at the user's request. There are probably even more interesting ideas that people could and have put to work using the power of dynamic directory evaluation.
+							</h3>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" width="20%">
+							<h3>
+								<a href="cgi_test.py">CGI Test</a>
+								<hr>
+								<a href="http://schap472.dorms.bju.edu/python/python_script_viewer.py?file=cgi_test.py">SOURCE</a>
+							</h3>
+						</td>
+						<td>
+							<h3>
+								This program allows anyone to test what cgi_module.py and cgi_module.pyc accomplish for a CGI program. cgi_test.py is very small and should not be too difficult for someone to understand. To play around with this script, just add a valid or invalid query string to the end of the URL (example: <a href="cgi_test.py?country=Mars&state=Confused">?country=Mars&state=Confused</a>).
+							</h3>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" width="20%">
+							<h3>
+								<a href="cgi_module.py">CGI Module</a>
+								<hr>
+								<a href="http://schap472.dorms.bju.edu/python/python_script_viewer.py?file=cgi_module.py">SOURCE</a>
+							</h3>
+						</td>
+						<td>
+							<h3>
+								CGI Module is not designed to be executed directly. It is meant as a helper for other CGI programs. Is can export a query string and a query string in the form of a dictionary. It also has some functions that are helpful when trying to show output in a user's browser. Python already has CGI resources in its toolbox; CGI Module is just a lighter version for the same purpose.
+							</h3>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" width="20%">
+							<h3>
+								<a href="aens_time.py">Aens Time</a>
+								<hr>
+								<a href="http://schap472.dorms.bju.edu/python/python_script_viewer.py?file=aens_time.py">SOURCE</a>
+							</h3>
+						</td>
+						<td>
+							<h3>
+								Aens is a fictional universe with a fictional measure of time. Betas are like seconds and milliseconds combined. Minutes and hours are represented with alphas. There are 1,000 betas in an alpha and 1,000 alphas in a day. There a 7 days in a week and 4 weeks in a month. There are 3 months in a season and 4 seasons in a year. What does it all mean? There are 336 days in a year. No, they do not live longer; they just have more birthdays.
+							</h3>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<hr>
+</CENTER>
+</BODY></HTML>

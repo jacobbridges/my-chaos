@@ -1,0 +1,20 @@
+INP
+REG	temp = get_int()
+M=0
+S++
+INP	s[1] = get_int()
+
+LOP
+M--
+S--
+M--	s[0] = -s[1]
+S++
+S++
+M++	s[2] = s[1]
+S--
+END
+
+M++	s[1] = 1
+WIZ	s[2] *= temp
+S++
+OUT	print s[2]

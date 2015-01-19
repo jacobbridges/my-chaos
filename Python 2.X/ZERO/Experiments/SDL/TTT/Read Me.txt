@@ -1,0 +1,80 @@
+--+--  --+--  /---\     --+--   /-\   /---\     --+--  /---\  +----
+  |      |    |           |    /   \  |           |    |   |  |
+  |      |    |           |    +---+  |           |    |   |  +----
+  |      |    |           |    |   |  |           |    |   |  |
+  |    --+--  \---/       |    |   |  \---/       |    \---/  +----
+===================     ===================     ===================
+
+/----   /-\   /---\
+|      /   \  |   |
++--    +---+  | \ |
+|      |   |  |  \|
+|      |   |  \---\
+===================
+
+~~~
+
+Q:  What does this program do?
+
+A:  Tic Tac Toe allows you to play on a network with other players.
+
+~~~
+
+Q:  What should I do first?
+
+A:  Get on a network and give this program to someone else to play.
+
+~~~
+
+Q:  What does "Server is [OFF]" mean?
+
+A:  Someone needs to start the server so you can start playing now.
+
+~~~
+
+Q:  My friend just started the server; what am I supposed to do?
+
+A:  Type in your friend's IP address and hit "Enter" to start game.
+
+~~~
+
+Q:  Why is it asking me if I want to play as X/O today?
+
+A:  Xs and Os are used to play Tic Tac Toe; click on "Yes" or "No."
+
+~~~
+
+Q:  Why is the game telling me that I will be playing as X/O?
+
+A:  You connected last to the server, and you get the other symbol.
+
+~~~
+
+Q:  Why is the game telling me it is waiting for a response?
+
+A:  Your opponent has not clicked the "OKAY" button to confirm yet.
+
+~~~
+
+Q:  The program said something and is just sitting there.
+
+A:  Hopefully, you remember how to play; if not, click on the grid.
+
+~~~
+
+Q:  Why does the game freeze after it is over?
+
+A:  It will wait for ten seconds before showing the opening screen.
+
+~~~
+
+Q:  Who wrote this program?
+
+A:  -----  +----  +---\  /---\
+       /   |      |   |  |   |
+      /    +----  +---/  |   |
+     /     |      |  \   |   |
+    -----  +----  |   \  \---/
+    ==========================
+
+~~~

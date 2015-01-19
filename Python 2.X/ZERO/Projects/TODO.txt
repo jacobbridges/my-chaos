@@ -1,0 +1,78 @@
+TODO
+====
+Substitute "random.SystemRandom.random" for "random.random" where appropriate.
+Fix "raise <exception_class>, <string>" so string is argument to class.
+Check that code never exceeds 80 characters in length.
+Use double quotes for documentation strings.
+Write documentation and exmaple code.
+
+base255
+=======
+Create module where base is programmable.
+Base can be defined as a number (64), a range (48-122), or ranges (48-57, 65-90, 97-122).
+
+dfs
+===
+Add separate classes to support bz2 compression (strip magic number and use TEMP file).
+Add separate classes to support zlib compression (strip magic number and use TEMP file).
+
+matrix
+======
+Rewrite the module.
+Add 3D data array.
+Disallow negative indexes.
+
+physics
+=======
+Add wall and polygon support.
+Edit "Ball" accordingly.
+
+progress_bar
+============
+Add old progress bar to module from "old_pb" (Waiting).
+
+proxy
+=====
+Create a datagram proxy.
+
+pump
+====
+Reoraganize the code.
+Check protocol documentation against "dfs" module.
+
+security
+========
+Edit assertion lines to be < 80 chars.
+Rename "Security.__call__" to be something else (such as "check").
+
+spice
+=====
+Rewrite as file wrappers.
+Check My Python\Console Based\Games\CS Profile Manager\Version 3.
+Add support for named keys.
+Create a "tornado" module or add the code to this module.
+
+spots
+=====
+Create a "_Timeout" class to help "QRP" manage timeouts with min(threads).
+Edit "QRP" to use the "_Timeout" class.
+
+str_mod
+=======
+Rename module according to encrption method used.
+Possibly move "partition" function to another module.
+
+sync
+====
+Add support for threads entering and leaving a "Sync" object.
+Add "GSync" (Group Syncronize) class.
+"GSync" should recognize a main thread and a group of threads.
+
+winreg
+======
+Create "_dummy_winreg" module.
+Rename the classes with constants (review the names).
+
+xml_stream
+==========
+Add validation helper classes (to inherit from them).

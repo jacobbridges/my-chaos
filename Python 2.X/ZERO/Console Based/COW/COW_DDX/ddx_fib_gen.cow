@@ -1,0 +1,16 @@
+		i = 0
+		s = [0] * 7
+MoO	M++	s[i] = 1
+OOM	OUT	print s[i]
+MmM	S++	i += 1
+MoO	M++	s[i] = 1
+OOM	OUT	print s[i]
+MOO	LOP	while True:
+mmm	WIZ		temp = sum(s)
+MMm	S--		i = (i + 6) % 7
+OOO	M=0		s[i] = 0
+MmM	S++		i = (i + 1) % 7
+MmM	S++		i = (i + 1) % 7
+MMM	REG		s[i] = temp
+OOM	OUT		print s[i]
+moo	END

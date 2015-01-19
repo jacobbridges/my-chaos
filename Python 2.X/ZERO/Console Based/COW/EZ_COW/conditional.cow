@@ -1,0 +1,30 @@
+M++M++		a = 2
+
+REGP++REG	b = a
+
+P++M=0
+M++M++M++	c = 3
+
+LOP
+M--P--		c = 0
+M--P++		b -= c
+END
+
+P--LOP		if b:   # if a != 3:
+
+P--OUT			print a
+P--M--OUTP++		print -1
+
+P++M=0
+LOPEND		else:
+
+[[ ERROR - ELSE cannot be executed ]]
+
+P--OUT			print a
+P--M--M--OUTP++		print -2
+
+P++M=0LOP
+ENDENDP--	end_if
+
+OUT			print a
+P--M=0M--M--M--OUT	print -3

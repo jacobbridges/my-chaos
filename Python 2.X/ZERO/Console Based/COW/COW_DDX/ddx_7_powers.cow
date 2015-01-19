@@ -1,0 +1,7 @@
+oOM     AM+	s = [1] * 7
+MOO     LOP	while True:
+OOM     OUT		print s[0]
+mmm     WIZ		temp = sum(s)
+ooo     A=0		s = [0] * 7
+mmm     WIZ		s = [temp] * 7
+moo     END

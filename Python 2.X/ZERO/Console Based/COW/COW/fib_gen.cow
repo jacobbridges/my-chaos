@@ -1,0 +1,25 @@
+MoO     M++     a = 1 #
+moO     P++           #
+MoO     M++     b = 1 # a = b = 1
+mOo     P--
+MOO     LOP     while a: # while True:
+OOM     OUT          print a  # print a
+MMM     REG          temp = a #
+moO     P++                   #
+moO     P++                   #
+MMM     REG          c = temp # c = a #
+mOo     P--                   #       #
+MMM     REG          temp = b #       #
+mOo     P--                   #       #
+MMM     REG          a = temp # a = b # c, a = a, b
+moO     P++
+moO     P++
+MOO     LOP          while c:    #
+MOo     M--               c -= 1 #
+mOo     P--                      #
+MoO     M++               b += 1 # b += c
+moO     P++
+moo     END
+mOo     P--
+mOo     P--
+moo     END
