@@ -1,2 +1,5 @@
 # Ignore compiled Python files
 *.pyc
+
+# Ignore cloud9 config folders
+.c9/
