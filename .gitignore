@@ -3,3 +3,6 @@
 
 # Ignore cloud9 config folders
 .c9/
+
+# Ignore all virtual environment folders
+venv/
