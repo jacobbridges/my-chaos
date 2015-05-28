@@ -6,3 +6,7 @@
 
 # Ignore all virtual environment folders
 venv/
+
+# Ignore all secret files and key files
+*.secret
+*.key
