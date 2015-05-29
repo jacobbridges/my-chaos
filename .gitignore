@@ -10,3 +10,6 @@ venv/
 # Ignore all secret files and key files
 *.secret
 *.key
+
+# Ignore all node_modules
+node_modules/
