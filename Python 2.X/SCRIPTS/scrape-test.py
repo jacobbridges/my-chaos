@@ -1,7 +1,7 @@
 from __future__ import print_function
 from BeautifulSoup import BeautifulSoup
-from time import sleep
-import threading
+import time
+import multiprocessing
 import requests
 
 DOMAIN = 'http://www.usatoday.com'
@@ -12,6 +12,17 @@ def chunks(l, n):
         yield l[i:i + n]
 
 
+def timing(f):
+    def wrap(*args):
+        time1 = time.time()
+        ret = f(*args)
+        time2 = time.time()
+        print('%s function took %0.3f ms' % (f.func_name,
+              (time2 - time1) * 1000.0))
+        return ret
+    return wrap
+
+
 def get_href(a):
     try:
         return a['href']
@@ -20,7 +31,7 @@ def get_href(a):
 
 
 def scrape_links(url):
-    sleep(0.1)
+    time.sleep(0.1)
     if url.startswith('http'):
         r = requests.get(url)
     else:
@@ -30,7 +41,7 @@ def scrape_links(url):
 
 
 def scrape_paragraphs(url):
-    sleep(0.1)
+    time.sleep(0.1)
     if url.startswith('http'):
         r = requests.get(url)
     else:
@@ -39,12 +50,14 @@ def scrape_paragraphs(url):
     return soup.findAll('p')
 
 
+@timing
 def scraper_worker(*urls):
     for url in urls:
         print("{} found {} paragraphs on {}".format(
-            threading.currentThread().getName(),
+            multiprocessing.current_process().name,
             len(scrape_paragraphs(url)),
             url))
+    return
 
 
 def get_top_story_links():
@@ -55,8 +68,9 @@ def main():
     links_to_scrape = get_top_story_links()
     print("Spawning {} threads".format(len(links_to_scrape)))
     for i in range(len(links_to_scrape)):
-        t = threading.Thread(target=scraper_worker, args=(links_to_scrape[i]))
-        t.start()
+        p = multiprocessing.Process(
+            target=scraper_worker, args=(links_to_scrape[i]))
+        p.start()
 
 if __name__ == "__main__":
     main()
