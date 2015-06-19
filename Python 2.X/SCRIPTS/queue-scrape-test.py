@@ -1,15 +1,11 @@
 from __future__ import print_function
 from BeautifulSoup import BeautifulSoup
 import time
-import multiprocessing
+import threading
+from Queue import Queue
 import requests
 
 DOMAIN = 'http://www.usatoday.com'
-
-
-def chunks(l, n):
-    for i in xrange(0, len(l), n):
-        yield l[i:i + n]
 
 
 def timing(f):
@@ -50,27 +46,34 @@ def scrape_paragraphs(url):
     return soup.findAll('p')
 
 
-@timing
-def scraper_worker(*urls):
-    for url in urls:
+def scraper_worker(q):
+    while not q.empty():
+        url = q.get()
         print("{} found {} paragraphs on {}".format(
-            multiprocessing.current_process().name,
+            threading.current_thread().name,
             len(scrape_paragraphs(url)),
             url))
+        q.task_done()
     return
 
 
 def get_top_story_links():
-    return list(chunks(scrape_links('/feeds/live/news?count=40'), 10))
+    return scrape_links('/feeds/live/news?count=40')
 
 
+@timing
 def main():
     links_to_scrape = get_top_story_links()
-    print("Spawning {} threads".format(len(links_to_scrape)))
-    for i in range(len(links_to_scrape)):
-        p = multiprocessing.Process(
-            target=scraper_worker, args=(links_to_scrape[i]))
+    q = Queue()
+    for link in links_to_scrape:
+        q.put(link)
+    num_processes = len(links_to_scrape) / 10
+    print("Spawning {} threads".format(num_processes))
+    for i in range(num_processes):
+        p = threading.Thread(
+            target=scraper_worker, args=(q,))
         p.start()
+    q.join()
 
 if __name__ == "__main__":
     main()
