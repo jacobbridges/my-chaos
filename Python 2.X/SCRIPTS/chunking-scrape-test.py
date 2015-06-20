@@ -1,3 +1,7 @@
+###
+# Scrapes 40 pages in ~7 seconds
+###
+
 from __future__ import print_function
 from BeautifulSoup import BeautifulSoup
 import time
